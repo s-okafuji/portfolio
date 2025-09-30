@@ -73,10 +73,16 @@ input[type="text"] {
 
 textarea {
 	height: 100px;
+	margin-bottom: 5px;
 }
 
 input[type="text"] {
 	height: 25px;
+}
+
+input[type="submit"], 
+input[type="reset"]{
+	margin-top: 5px;
 }
 
 h3 {
@@ -114,7 +120,7 @@ h4::before {
 }
 
 .profile-image {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .profile-image img {
@@ -128,6 +134,7 @@ h4::before {
 	.profile {
 		flex-direction: column;
 		align-items: center;
+		gap: 10px;
 	}
 
 	.profile-image {
@@ -135,8 +142,9 @@ h4::before {
 	}
 
 	.profile-image img {
-		width: 200px;
-		height: 200px;
+		width: 300px;
+		height: 300px;
+		margin-top: 0;
 	}
 }
 
@@ -205,4 +213,9 @@ h4::before {
 h5{
 	font-size: 20px;
 	margin-top: 5px;
+}
+
+.submit{
+	margin-top: 5px;
+	text-align: center;
 }
