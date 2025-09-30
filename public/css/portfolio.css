@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/グレー背景.png);
+}
+
+main {
+	margin: 0 10px;
+	padding: 0;
+}
+
+header {
+	background-color: #486373;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	color: ghostwhite;
+}
+
+header h1 {
+	font-size: 50px;
+}
+
+.border {
+	border: none;
+	border-top: 10px solid #486373;
+	width: 60%;
+	margin: 10px auto 0;
+}
+
+.title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+.name{
+	font-size: 20px;
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+footer {
+	background-color: #486373;
+	color: ghostwhite;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.contact {
+	width: 400px;
+	margin: 0 auto;
+}
+
+table {
+	margin: 0 auto;
+}
+
+textarea,
+input[type="text"] {
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	height: 100px;
+}
+
+input[type="text"] {
+	height: 25px;
+}
+
+h3 {
+	text-decoration: underline;
+	text-decoration-color: #486373;
+	text-decoration-thickness: 5px;
+}
+
+h3::before {
+	content: "◆ ";
+	color: #486373;
+	font-weight: bold;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+}
+
+h4::before {
+	content: "◆ ";
+	color: #486373;
+	font-weight: bold;
+}
+
+.profile {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.profile-text {
+	flex: 0 1 600px;
+}
+
+.profile-image {
+	margin-top: 30px;
+}
+
+.profile-image img {
+	width: 300px;
+	height: 300px;
+	border: 5px solid #486373;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 780px) {
+	.profile {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.profile-image {
+		margin-top: 1px;
+	}
+
+	.profile-image img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+.skill {
+	display: flex;
+	justify-content: center;
+}
+
+.skill-text {
+	flex: 0 1 600px;
+}
+
+.nav {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.nav a {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 8px 15px;
+	color: ghostwhite;
+	font-size: 30px;
+	background-color: #486373;
+	border-radius: 5px;
+}
+
+
+.skill-charts {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+
+.pie-wrapper {
+	text-align: center;
+}
+
+.pie-chart {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.pie-chart.java {
+	background: conic-gradient(#3b5965 0% 40%,
+			#e0e0e0 40% 100%);
+	border: 5px solid grey;
+}
+
+.pie-chart.oracle {
+	background: conic-gradient(#5a7a8c 0% 40%,
+			#e0e0e0 40% 100%);
+	border: 5px solid grey;
+}
+
+.pie-chart.htmlcss {
+	background: conic-gradient(#7aa0b5 0% 30%,
+			#e0e0e0 30% 100%);
+	border: 5px solid grey;
+}
+
+h5{
+	font-size: 20px;
+	margin-top: 5px;
+}

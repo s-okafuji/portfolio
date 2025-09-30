@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/portfolio.css">
+	<title>portfoilo</title>
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>PORTFOLIO</h1>
+
+			<nav class="nav">
+				<a href="#profile">Profile</a>
+				<a href="#skill">Skill</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</header>
+
+		<p class="title" id="profile">Profile</p>
+		<p class="border"></p>
+
+		<div class="profile">
+			<div class="profile-text">
+				<h3>名前</h3>
+				<p class="name">岡藤 柊斗</p>
+				<p style="margin-top: 1px;">Shuto Okafuji</p>
+				<h3>誕生日</h3>
+				<p>2000年2月</p>
+				<h3>経歴</h3>
+				<p>・飲食店スタッフ（ラーメン屋）<br />
+					・アミューズメントカジノ （ディーラー・バーテンダー）
+				</p>
+				<h3>趣味・特技</h3>
+				<p>音楽、バンド活動、ダンス、ボードゲーム、動画編集</p>
+			</div>
+
+			<div class="profile-image">
+				<img src="../images/okafuji.jpg" alt="プロフィール画像">
+			</div>
+		</div>
+		<p class="title" id="skill">Skill</p>
+		<p class="border"></p>
+
+		<div class="skill-charts">
+			<div class="pie-wrapper">
+				<div class="pie-chart java"></div>
+				<h5>Java 40%</h5>
+			</div>
+			<div class="pie-wrapper">
+				<div class="pie-chart oracle"></div>
+				<h5>Oracle 40%</h5>
+			</div>
+			<div class="pie-wrapper">
+				<div class="pie-chart htmlcss"></div>
+				<h5>HTML/CSS 30%</h5>
+			</div>
+		</div>
+
+		<div class="skill">
+			<div class="skill-text">
+				<h3>Java</h3>
+				<p>
+					・Javaの基礎構文（変数宣言、入出力、演算子、配列、条件分岐、繰り返し）<br />
+					・Javaの応用構文（継承、カプセル化、コレクションフレームワーク、例外処理）
+				</p>
+				<h3>Oracle</h3>
+				<p>
+					・SQLの基礎構文（select、insert、update、delete）<br />
+					・SQLの応用構文（集約、結合、並べ替え、サブクエリ、シーケンス、JDBC）
+				</p>
+				<h3>HTML/CSS</h3>
+				<p>
+					・HTML（HTML概要、タグの種類、フォーム）<br />
+					・CSS（プロパティの種類、ブロック構造、ページレイアウト）
+				</p>
+			</div>
+		</div>
+
+		<p class="title" id="contact">Contact</p>
+		<p class="border"></p>
+		<form method="post" name="contact-form" action="">
+			<table>
+
+
+				<tr>
+					<td>
+						<h4>Name</h4>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h>
+							<h4>E-mail</h4>
+							<input type="text">
+						</h>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4>Message</h4>
+						<textarea></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="title">
+							<input type="submit" value="送信" style="font-weight: bold;">
+							<input type="reset" value="リセット" style="font-weight: bold;">
+						</p>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</main>
+
+	<footer>
+		<p>©2025 My Portfolio</p>
+	</footer>
+</body>
+
+
+</html>
