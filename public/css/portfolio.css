@@ -20,7 +20,11 @@ header {
 }
 
 header h1 {
-	font-size: 50px;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 100px;
+	letter-spacing: 20px;
+	margin-bottom: 2px;
+	margin-top: 20px;
 }
 
 .border {
@@ -144,6 +148,8 @@ h4::before {
 	font-size: 30px;
 	background-color: #486373;
 	border-radius: 5px;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 2px;
 }
 
 .skill-charts {
@@ -167,20 +173,21 @@ h4::before {
 }
 
 .pie-chart.java {
-	background: conic-gradient(#2f434e 0% 40%, #e0e0e0 40% 100%); 
+	background: conic-gradient(#2f434e 0% 40%, #e0e0e0 40% 100%);
 }
 
 .pie-chart.oracle {
-	background: conic-gradient(#3b5965 0% 40%, #e0e0e0 40% 100%); 
+	background: conic-gradient(#3b5965 0% 40%, #e0e0e0 40% 100%);
 }
 
 .pie-chart.htmlcss {
-	background: conic-gradient(#5a7a8c 0% 30%, #e0e0e0 30% 100%); 
+	background: conic-gradient(#5a7a8c 0% 30%, #e0e0e0 30% 100%);
 }
 
 .pie-chart.spring {
 	background: conic-gradient(#7aa0b5 0% 30%, #e0e0e0 30% 100%);
 }
+
 h5 {
 	font-size: 20px;
 	margin-top: 5px;
