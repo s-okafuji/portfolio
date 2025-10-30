@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(../images/グレー背景.png);
+	background-image: url(../images/大理石.jpg);
 }
 
 main {
@@ -24,7 +24,6 @@ header h1 {
 }
 
 .border {
-	border: none;
 	border-top: 10px solid #486373;
 	width: 60%;
 	margin: 10px auto 0;
@@ -38,14 +37,9 @@ header h1 {
 	margin-bottom: 0px;
 }
 
-.name{
+.name {
 	font-size: 20px;
-	padding-bottom: 1px;
 	margin-bottom: 1px;
-}
-
-form {
-	margin-bottom: 0;
 }
 
 footer {
@@ -55,11 +49,6 @@ footer {
 	padding: 20px 0;
 }
 
-.contact {
-	width: 400px;
-	margin: 0 auto;
-}
-
 table {
 	margin: 0 auto;
 }
@@ -67,7 +56,6 @@ table {
 textarea,
 input[type="text"] {
 	width: 300px;
-	margin: 0;
 	padding: 0;
 }
 
@@ -80,8 +68,8 @@ input[type="text"] {
 	height: 25px;
 }
 
-input[type="submit"], 
-input[type="reset"]{
+input[type="submit"],
+input[type="reset"] {
 	margin-top: 5px;
 }
 
@@ -89,6 +77,7 @@ h3 {
 	text-decoration: underline;
 	text-decoration-color: #486373;
 	text-decoration-thickness: 5px;
+	text-underline-offset: 6px;
 }
 
 h3::before {
@@ -99,7 +88,6 @@ h3::before {
 
 h4 {
 	margin: 0;
-	padding: 0;
 	padding-top: 20px;
 }
 
@@ -111,7 +99,7 @@ h4::before {
 
 .profile {
 	display: flex;
-	gap: 20px;
+	gap: 50px;
 	justify-content: center;
 }
 
@@ -119,32 +107,18 @@ h4::before {
 	flex: 0 1 600px;
 }
 
-.profile-image {
-	margin-top: 0px;
-}
-
 .profile-image img {
 	width: 300px;
 	height: 300px;
 	border: 5px solid #486373;
 	border-radius: 10px;
+	margin-top: 20px;
 }
 
 @media screen and (max-width: 780px) {
 	.profile {
 		flex-direction: column;
 		align-items: center;
-		gap: 10px;
-	}
-
-	.profile-image {
-		margin-top: 1px;
-	}
-
-	.profile-image img {
-		width: 300px;
-		height: 300px;
-		margin-top: 0;
 	}
 }
 
@@ -172,7 +146,6 @@ h4::before {
 	border-radius: 5px;
 }
 
-
 .skill-charts {
 	display: flex;
 	justify-content: center;
@@ -190,32 +163,48 @@ h4::before {
 	height: 120px;
 	border-radius: 50%;
 	margin-bottom: 10px;
+	border: 5px solid grey;
 }
 
 .pie-chart.java {
-	background: conic-gradient(#3b5965 0% 40%,
-			#e0e0e0 40% 100%);
-	border: 5px solid grey;
+	background: conic-gradient(#2f434e 0% 40%, #e0e0e0 40% 100%); 
 }
 
 .pie-chart.oracle {
-	background: conic-gradient(#5a7a8c 0% 40%,
-			#e0e0e0 40% 100%);
-	border: 5px solid grey;
+	background: conic-gradient(#3b5965 0% 40%, #e0e0e0 40% 100%); 
 }
 
 .pie-chart.htmlcss {
-	background: conic-gradient(#7aa0b5 0% 30%,
-			#e0e0e0 30% 100%);
-	border: 5px solid grey;
+	background: conic-gradient(#5a7a8c 0% 30%, #e0e0e0 30% 100%); 
 }
 
-h5{
+.pie-chart.spring {
+	background: conic-gradient(#7aa0b5 0% 30%, #e0e0e0 30% 100%);
+}
+h5 {
 	font-size: 20px;
 	margin-top: 5px;
 }
 
-.submit{
-	margin-top: 5px;
+.works {
 	text-align: center;
+	margin: 40px auto;
+}
+
+.works img {
+	width: 40%;
+	min-width: 300px;
+	border: 5px solid #486373;
+	border-radius: 10px;
+}
+
+.work-link {
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.work-link a {
+	color: #0066cc;
+	text-decoration: underline;
+	font-weight: bold;
 }
