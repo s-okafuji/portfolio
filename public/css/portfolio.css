@@ -173,19 +173,19 @@ h4::before {
 }
 
 .pie-chart.java {
-	background: conic-gradient(#2f434e 0% 40%, #e0e0e0 40% 100%);
+	background: conic-gradient(#2f434e 0% 80%, #e0e0e0 80% 100%);
 }
 
 .pie-chart.oracle {
-	background: conic-gradient(#3b5965 0% 40%, #e0e0e0 40% 100%);
+	background: conic-gradient(#3b5965 0% 80%, #e0e0e0 80% 100%);
 }
 
 .pie-chart.htmlcss {
-	background: conic-gradient(#5a7a8c 0% 30%, #e0e0e0 30% 100%);
+	background: conic-gradient(#5a7a8c 0% 70%, #e0e0e0 70% 100%);
 }
 
 .pie-chart.spring {
-	background: conic-gradient(#7aa0b5 0% 30%, #e0e0e0 30% 100%);
+	background: conic-gradient(#7aa0b5 0% 70%, #e0e0e0 70% 100%);
 }
 
 h5 {
